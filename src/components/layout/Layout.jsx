@@ -1,5 +1,8 @@
 import * as React from 'react';
 
+// Theme
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 // Components
 import Header from '../../components/layout/Header';
 import Footer from '../../components/layout/Footer';
