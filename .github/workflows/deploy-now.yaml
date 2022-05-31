@@ -1,3 +1,6 @@
+# To better understand this file read this:
+# https://docs.ionos.space/docs/github-actions-customization/
+
 name: Deploy Now
 
 on:
@@ -7,9 +10,6 @@ on:
 jobs:
   deploy-now:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      packages: write
     steps:
       - name: Fetch project data
         uses: ionos-deploy-now/retrieve-project-info-action@v1
